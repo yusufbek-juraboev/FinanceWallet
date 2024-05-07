@@ -1,8 +1,9 @@
-#FinanceManager
+# FinanceManager
 
 The FinanceManager is a simple command-line application designed to help manage personal financial records. It allows users to track their income and expenses, providing functionalities such as adding, editing, deleting, and searching financial records. Additionally, it can display the current financial balance, total income, and expenses.
 
-##Features
+## Features
+
 **Show Current Financial Balance:** Displays the user's current balance along with the total income and expenses.
 **Add Financial Records:** Allows adding new financial records as either income or expense.
 **Edit Existing Financial Records:** Provides the functionality to modify any existing record.
@@ -10,8 +11,8 @@ The FinanceManager is a simple command-line application designed to help manage 
 **Search Financial Records:** Users can search through the financial records based on a search term.
 **Display All Records:** Lists all financial records for review or further action.
 
-##Setup
-###Requirements
+## Setup
+### Requirements
 Python 3.x
 CSV file named finance.csv in the same directory as the script. If the file does not exist, the program will create one upon adding the first record.
 Running the Program
@@ -22,7 +23,7 @@ Run the script using Python by typing the following command:
 
 `python filename.py`
 
-##Usage Instructions
+## Usage Instructions
 Upon running the program, you will be greeted with a menu of options:
 
 1. Show balance
